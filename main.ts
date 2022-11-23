@@ -1,6 +1,6 @@
 import { Convert, TaskList } from "./convert.ts";
 
-const text = await Deno.readTextFile("./z982-backup.json");
+const text = await Deno.readTextFile("./backup.json");
 
 try {
     const quillnotes = Convert.toQuillnote(text);
